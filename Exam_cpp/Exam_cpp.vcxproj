@@ -127,7 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Exam_cpp.cpp" />
+    <ClCompile Include="Body.cpp" />
+    <ClCompile Include="ConsoleEngineCore.cpp" />
+    <ClCompile Include="ConsoleMath.cpp" />
+    <ClCompile Include="ConsoleObject.cpp" />
+    <ClCompile Include="ConsoleScreen.cpp" />
+    <ClCompile Include="Head.cpp" />
+    <ClCompile Include="Part.cpp" />
+    <ClCompile Include="Snake.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="ConsoleEngineCore.h" />
+    <ClInclude Include="ConsoleMath.h" />
+    <ClInclude Include="ConsoleObject.h" />
+    <ClInclude Include="ConsoleScreen.h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="Part.h" />
+    <ClInclude Include="Screen_S.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
